@@ -643,3 +643,16 @@ header nav button {
   color: var(--brand);
   transform: translate(2px, -2px);
 }
+/* Keep contact arrows at icon size in browsers that use SVG intrinsic dimensions. */
+.contacts a > .contact-arrow svg {
+  display: block;
+  width: 1.1rem;
+  height: 1.1rem;
+  min-width: 1.1rem;
+  min-height: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
