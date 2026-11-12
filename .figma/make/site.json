@@ -1,0 +1,11 @@
+{
+  "title": "CV Revva Anna",
+  "description": "An online platform that helps users explore ideas and find useful guidance through clear, accessible content.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
